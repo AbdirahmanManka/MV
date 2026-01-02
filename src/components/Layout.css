@@ -1,0 +1,132 @@
+.app-layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+}
+
+.app-header {
+  background: rgba(30, 30, 46, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.app-title {
+  color: #ffffff !important;
+  margin: 0 !important;
+  cursor: pointer;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: transform 0.2s ease;
+}
+
+.app-title:hover {
+  transform: scale(1.05);
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-button {
+  color: rgba(255, 255, 255, 0.8) !important;
+  border: none;
+  height: 40px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.nav-button.ant-btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-input .ant-input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.search-input .ant-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input .ant-input:hover,
+.search-input .ant-input:focus {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.search-input .ant-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.app-content {
+  padding: 40px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 0;
+  }
+
+  .header-left {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .nav-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .search-input {
+    width: 100% !important;
+  }
+
+  .app-content {
+    padding: 24px 16px;
+  }
+}
+
+
