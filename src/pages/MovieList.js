@@ -110,3 +110,5 @@ const MovieList = ({ type }) => {
 export default MovieList;
 
 
+
+

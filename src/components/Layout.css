@@ -1,17 +1,17 @@
 .app-layout {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  background: #ffffff;
 }
 
 .app-header {
-  background: rgba(30, 30, 46, 0.95);
+  background: #ffffff;
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #e0e0e0;
   padding: 0 24px;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
@@ -30,19 +30,17 @@
 }
 
 .app-title {
-  color: #ffffff !important;
+  color: #333333 !important;
   margin: 0 !important;
   cursor: pointer;
   font-weight: 700;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #87CEEB !important;
   transition: transform 0.2s ease;
 }
 
 .app-title:hover {
   transform: scale(1.05);
+  color: #70B8D4 !important;
 }
 
 .nav-buttons {
@@ -51,7 +49,7 @@
 }
 
 .nav-button {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: #666666 !important;
   border: none;
   height: 40px;
   font-weight: 500;
@@ -59,14 +57,19 @@
 }
 
 .nav-button:hover {
-  color: #ffffff !important;
-  background: rgba(255, 255, 255, 0.1) !important;
+  color: #333333 !important;
+  background: #f0f0f0 !important;
 }
 
 .nav-button.ant-btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  background: #87CEEB !important;
   color: #ffffff !important;
   border: none;
+}
+
+.nav-button.ant-btn-primary:hover {
+  background: #70B8D4 !important;
+  color: #ffffff !important;
 }
 
 .header-right {
@@ -75,24 +78,28 @@
 }
 
 .search-input .ant-input {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  color: #333333;
 }
 
 .search-input .ant-input::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #999999;
 }
 
 .search-input .ant-input:hover,
 .search-input .ant-input:focus {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: #ffffff;
+  border-color: #87CEEB;
 }
 
 .search-input .ant-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #87CEEB;
   border: none;
+}
+
+.search-input .ant-btn:hover {
+  background: #70B8D4;
 }
 
 .app-content {
@@ -128,5 +135,6 @@
     padding: 24px 16px;
   }
 }
+
 
 

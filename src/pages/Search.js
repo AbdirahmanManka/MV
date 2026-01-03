@@ -47,7 +47,7 @@ const Search = () => {
       <div className="search-page">
         <Empty
           description={
-            <span style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
+            <span style={{ color: '#666666' }}>
               Enter a search term to find movies
             </span>
           }
@@ -69,7 +69,7 @@ const Search = () => {
       ) : movies.length === 0 ? (
         <Empty
           description={
-            <span style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
+            <span style={{ color: '#666666' }}>
               No movies found for "{query}"
             </span>
           }
@@ -106,5 +106,6 @@ const Search = () => {
 };
 
 export default Search;
+
 
 

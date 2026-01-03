@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Rate, Tag } from 'antd';
+import { Card } from 'antd';
 import { CalendarOutlined, StarOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
 import { getImageUrl } from '../services/api';
@@ -62,5 +62,6 @@ const MovieCard = ({ movie }) => {
 };
 
 export default MovieCard;
+
 
 

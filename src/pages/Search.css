@@ -3,7 +3,7 @@
 }
 
 .search-title {
-  color: #ffffff !important;
+  color: #333333 !important;
   margin-bottom: 40px !important;
   font-size: 36px !important;
   font-weight: 700 !important;
@@ -11,7 +11,7 @@
 }
 
 .search-title .anticon {
-  color: #667eea;
+  color: #87CEEB;
   margin-right: 12px;
 }
 
@@ -22,21 +22,21 @@
 }
 
 .pagination-container .ant-pagination {
-  color: rgba(255, 255, 255, 0.8);
+  color: #333333;
 }
 
 .pagination-container .ant-pagination-item {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: #ffffff;
+  border-color: #d0d0d0;
 }
 
 .pagination-container .ant-pagination-item a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #666666;
 }
 
 .pagination-container .ant-pagination-item-active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-color: #667eea;
+  background: #87CEEB;
+  border-color: #87CEEB;
 }
 
 .pagination-container .ant-pagination-item-active a {
@@ -45,12 +45,12 @@
 
 .pagination-container .ant-pagination-prev,
 .pagination-container .ant-pagination-next {
-  color: rgba(255, 255, 255, 0.8);
+  color: #666666;
 }
 
 .pagination-container .ant-pagination-prev:hover,
 .pagination-container .ant-pagination-next:hover {
-  color: #ffffff;
+  color: #333333;
 }
 
 @media (max-width: 768px) {
@@ -58,5 +58,6 @@
     font-size: 28px !important;
   }
 }
+
 
 
