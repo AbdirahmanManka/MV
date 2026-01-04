@@ -1,9 +1,9 @@
 .movie-card {
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
   background: #87CEEB;
-  border: 1px solid #70B8D4;
+  border: 2px solid #70B8D4;
   height: 100%;
 }
 
