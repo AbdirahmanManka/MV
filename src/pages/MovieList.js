@@ -19,7 +19,7 @@ const MovieList = ({ type }) => {
       case 'top-rated':
         return '⭐ Top Rated Movies';
       case 'upcoming':
-        return '📅 Upcoming Movies';
+        return '📅 Upcoming Movies1';
       default:
         return 'Movies';
     }
